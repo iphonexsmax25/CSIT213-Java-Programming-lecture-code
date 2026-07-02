@@ -1,21 +1,22 @@
 # CSIT213-Java-Programming-lecture-code
 
-This repository is created to **share lecture code** for the CSIT213 Java Programming course.  
-It serves as a central place for students and instructors to access, review, and collaborate on the code examples used during lectures.
+This repository is created to **share Java programming lecture codes** for reference and learning purposes.  
+Each branch corresponds to a specific lecture, making it easy to access the examples you need.
 
-## Purpose
-- Provide easy access to lecture code samples.
-- Encourage sharing and collaboration among classmates.
-- Help reinforce concepts taught in CSIT213 Java Programming.
+## 📂 How to Access Lecture Codes
+1. Navigate to the repository.
+2. Click on the **branch dropdown menu**.
+3. Select the branch for the lecture you want to view:
+   - `lecture-1` → Code examples from Lecture 1
+   - `lecture-2` → Code examples from Lecture 2
+   - `lecture-3` → Code examples from Lecture 3  
+   *(and so on for each lecture)*
 
-## Usage
-1. Clone or download this repository.
-2. Browse the folders to find relevant lecture code.
-3. Use the code as reference for practice, assignments, or revision.
+## 🎯 Purpose
+- Provide a centralized place for sharing lecture code.
+- Help students and peers reference past examples.
+- Encourage collaborative learning and discussion.
 
-## Accessing Code via Branches
-To view  the code from a specific lecture branch:
+---
 
-1. **List all branches**
-   ```bash
-   Lecture-1 
+Happy coding and learning! 🚀
