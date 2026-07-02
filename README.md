@@ -12,13 +12,10 @@ It serves as a central place for students and instructors to access, review, and
 1. Clone or download this repository.
 2. Browse the folders to find relevant lecture code.
 3. Use the code as reference for practice, assignments, or revision.
-4. the folder I will name as like this example (e.g. Lecture-1)
 
-## Contribution
-- Feel free to add or update code examples from lectures.
-- Ensure proper file naming and organization for clarity.
-- Follow Java best practices when contributing.
+## Accessing Code via Branches
+To view or work with code from a specific lecture branch:
 
----
-
-Happy coding and learning together!
+1. **List all branches**
+   ```bash
+   Lecture-1 
