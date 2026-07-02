@@ -14,7 +14,7 @@ It serves as a central place for students and instructors to access, review, and
 3. Use the code as reference for practice, assignments, or revision.
 
 ## Accessing Code via Branches
-To view or work with code from a specific lecture branch:
+To view  the code from a specific lecture branch:
 
 1. **List all branches**
    ```bash
