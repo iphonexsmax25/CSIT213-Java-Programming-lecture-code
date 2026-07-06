@@ -4,6 +4,9 @@ package com.mycompany.l2;
 
 public class Point {
     private double x, y;
+    public Point(){
+        
+    }
     
     public Point(double xCoord, double yCoord){
         x = xCoord;
