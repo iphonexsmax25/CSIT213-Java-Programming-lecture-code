@@ -18,6 +18,10 @@ public class Point {
         return 0;
     }
     
+     public double getDistance(Point other){
+        return 0;
+    }
+    
     public String toString(){
         return String.format("(%.1f,  %.1f)", x, y);
     }
