@@ -11,3 +11,4 @@ package part1;
 public class Square {
     
 }
+// test
