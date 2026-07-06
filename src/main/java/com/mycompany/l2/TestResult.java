@@ -18,9 +18,11 @@ public class TestResult {
         paper1 = score1;
         paper2 = score2;
     }
+    // Get Method for a static variable
     public static double getP1Weighting(){
         return p1Weighting;
     }
+    //Set method for static variables 
     
     public double getOverallScore(){
         return paper1 * p1Weighting + paper2 * p2Weighting;
