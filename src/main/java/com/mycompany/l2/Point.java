@@ -19,8 +19,11 @@ public class Point {
         return Math.sqrt(sumSq);
     }
     
+    //p1.getDisance(p3)
      public double getDistance(Point other){
-        return 0;
+         double xDiff = x - other.x;
+         double yDiff = y - other.y;
+         return Math.sqrt(xDiff * xDiff + yDiff * yDiff);
     }
     
     public String toString(){
