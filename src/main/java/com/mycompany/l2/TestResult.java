@@ -36,7 +36,7 @@ public class TestResult {
         }
     }
     public String toString(){
-        return String.format();
+        return String.format("TestResult: %s %f %f %f %s", ID, paper1, paper2, getOverallScore(), getGrade());
     }
 }
 
