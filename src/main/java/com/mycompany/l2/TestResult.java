@@ -35,8 +35,8 @@ public class TestResult {
             return "Fail";
         }
     }
-    public String toString(){
-        return String.format("TestResult: %s %f %f %f %s", ID, paper1, paper2, getOverallScore(), getGrade());
+    public String toString() {
+        return String.format("Test Result: %s %.1f %.1f %.2f %s", ID, paper1, paper2, getOverallScore(),getGrade());
     }
 }
 
