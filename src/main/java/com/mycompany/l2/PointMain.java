@@ -35,7 +35,7 @@ public class PointMain {
                 return false;
             }
         }
-        return false;
+        return true;
     }
     public static boolean equalsArray(Point[] a1, Point[] a2){
         for(int i = 0; i < a1.length; i++){
@@ -43,12 +43,12 @@ public class PointMain {
                 return false;
             }
         }
-        return false;
+        return true;
     }
 
     public static void comparePoint() {
-        Point p1 = new Point(10, 10);
-        Point p2 = new Point(10, 10);
+        Point p1 = new Point(10, 20);
+        Point p2 = new Point(10, 20);
         Point p3 = p2;
         // Comparing Point instances
         System.out.println(p1 == p2); // False
