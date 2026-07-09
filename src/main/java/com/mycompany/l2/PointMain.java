@@ -1,6 +1,6 @@
-
 package com.mycompany.l2;
 
+import java.util.Arrays;
 
 public class PointMain {
 
@@ -26,6 +26,15 @@ public class PointMain {
         Point[] a2 = {new Point(1, 1), new Point(2, 2)};
         Point[] a3 = a2;
         System.out.println(equalsArray(a1,a2));//true
+    }
+    
+    public static boolean equals(Object[] a1, Object[] a2){
+        for(int i = 0; i < a1.length; i++){
+            if (a1[i].equals(a2[i])== false){
+                return false;
+            }
+        }
+        return false;
     }
     public static boolean equalsArray(Point[] a1, Point[] a2){
         for(int i = 0; i < a1.length; i++){
