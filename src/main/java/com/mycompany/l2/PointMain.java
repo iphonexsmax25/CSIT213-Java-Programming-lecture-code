@@ -6,7 +6,7 @@ public class PointMain {
 
     public static void main(String[] args) {
         //testPoint();
-        comparePoint();
+        //comparePoint();
         compareArray();
     }
 
@@ -25,7 +25,8 @@ public class PointMain {
         Point[] a1 = {new Point(1, 1), new Point(2, 2)};
         Point[] a2 = {new Point(1, 1), new Point(2, 2)};
         Point[] a3 = a2;
-        System.out.println(equalsArray(a1,a2));//true
+        System.out.println(equalsArray(a1,a2));        //true
+        System.out.println(Arrays.equals(a1, a2));  //true
     }
     
     public static boolean equals(Object[] a1, Object[] a2){

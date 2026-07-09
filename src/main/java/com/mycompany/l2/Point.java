@@ -32,6 +32,17 @@ public class Point {
         }
         return (x == other.x && y == other.y);
     }
+     public boolean equals(Object other){
+         if (other == null){
+             return false;
+        }
+         if (other instanceof Point ==false){
+             return false;
+         }
+         //Casting is needed to cast other to Point
+         Point that = (Point)other;
+         return (x == that.x && y == that.y);
+     }
     
     public String toString(){
         return String.format("(%.1f,  %.1f)", x, y);
