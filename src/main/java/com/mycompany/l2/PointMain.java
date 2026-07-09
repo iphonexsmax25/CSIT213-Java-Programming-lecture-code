@@ -24,6 +24,16 @@ public class PointMain {
     public static void compareArray() {
         Point[] a1 = {new Point(1, 1), new Point(2, 2)};
         Point[] a2 = {new Point(1, 1), new Point(2, 2)};
+        Point[] a3 = a2;
+        System.out.println(equalsArray(a1,a2));//true
+    }
+    public static boolean equalsArray(Point[] a1, Point[] a2){
+        for(int i = 0; i < a1.length; i++){
+            if (a1[i].equals(a2[i])== false){
+                return false;
+            }
+        }
+        return false;
     }
 
     public static void comparePoint() {
