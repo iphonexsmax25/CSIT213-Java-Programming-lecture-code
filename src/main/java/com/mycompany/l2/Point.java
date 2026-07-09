@@ -26,6 +26,9 @@ public class Point {
          return Math.sqrt(xDiff * xDiff + yDiff * yDiff);
     }
     
+     public boolean equals (Point other){
+         return false;
+     }
     public String toString(){
         return String.format("(%.1f,  %.1f)", x, y);
     }
