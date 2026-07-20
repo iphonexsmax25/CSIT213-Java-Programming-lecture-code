@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+
 public class AboutArrayList {
     public static void main (String[] args){
         test1();
@@ -16,6 +17,10 @@ public class AboutArrayList {
         // Use the get method + loop
         for(int i = 0;i < aList.size(); i++){
             System.out.println(aList.get(1));
+        }
+        // for-each loop 
+        for (Object item : aList){
+            System.out.println(item);
         }
     }
 }
