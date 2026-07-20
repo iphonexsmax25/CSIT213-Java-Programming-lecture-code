@@ -16,6 +16,8 @@ public class FractionTest {
     }
     public static void changeReference(Fraction f){
         f = new Fraction(-1, -10);
+        System.out.println("Inside changeReference: ");
+        System.out.println(f);
         
     }
     public static void testAddMethod(){
