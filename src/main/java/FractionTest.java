@@ -3,6 +3,13 @@ public class FractionTest {
         testFraction();
         testEquals();
         testAddMethod();
+        Fraction f1 = new Fraction(1, 10);
+        changeIntstance(f1);
+        System.out.println(f1);
+        
+    }
+    public static void changeIntstance(Fraction f){
+        f.setNumerator(-1);
     }
     public static void testAddMethod(){
         Fraction f1 = new Fraction(1,10);

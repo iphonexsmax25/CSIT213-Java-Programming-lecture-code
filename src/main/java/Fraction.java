@@ -1,7 +1,10 @@
 public class Fraction {
     private int numerator, denominator;
     
-    // Add FRaction with other variables
+    // ANew added
+    void setNumerator(int nValue){
+        numerator = nValue;
+    }
     public Fraction add(Fraction other){
         int nValue = this.numerator * other.denominator + 
                      this.denominator * other.numerator;
