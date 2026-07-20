@@ -1,6 +1,17 @@
 public class Fraction {
     private int numerator, denominator;
     
+    // Add FRaction with other variables
+    public Fraction add(Fraction other){
+        int nValue = this.numerator * other.denominator + 
+                     this.denominator * other.numerator;
+        int dValue = this.denominator * other.denominator;
+        
+        //create an instance
+        Fraction fsum = new Fraction(nValue, dValue); 
+        return fsum;
+    }
+    
     public Fraction(){
         denominator = 1;
     }
