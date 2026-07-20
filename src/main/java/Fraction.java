@@ -9,7 +9,26 @@ public class Fraction {
         
         //create an instance
         Fraction fsum = new Fraction(nValue, dValue); 
+        fsum.simplify();
         return fsum;
+    }
+    
+    private void simplify(){
+        int startNum = 0;
+        if (numerator < denominator){
+            startNum = numerator;
+        } else{
+            startNum = denominator;
+        }
+        for(int divisor = startNum; divisor >= 2; divisor--){
+            // % modulus
+            if (numerator  % divisor == 0 && denominator % divisor == 0){
+                numerator = numerator / divisor;
+                denominator = denominator / divisor;
+                break;
+            }
+            
+        }
     }
     
     public Fraction(){
