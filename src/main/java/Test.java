@@ -10,6 +10,18 @@
 public class Test {
     public static void main(String[] args){
         test1();
+        test2();
+    }
+    public static void test2(){
+        //Base class Reference and subclass instance
+        Circle something = new Cylinder(1, 10);
+        System.out .println(something.getArea());
+        System.out.println(something);
+        something = new Circle(1);
+        System.out .println(something.getArea());
+        System.out.println(something);
+        //Polymorphism
+        
     }
     
     public static void test1(){
