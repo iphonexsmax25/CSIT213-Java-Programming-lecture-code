@@ -5,10 +5,17 @@ public class AboutHashMap {
     public static void main (String[] args){
         test1();
         test2();
+        test3();
+        
+    }
+    public static void test3(){
+        HashMap<String, ArrayList<Product>> prodByCat = new HashMap<>();
+        ArrayList<Product> sample = getSample();
+        
     }
     public static void test2(){
         HashMap<String, Product> products = new HashMap<>();
-        for (Product p :getsample()){
+        for (Product p :getSample()){
             products.put(p.getCode(), p);
         }
         //Get all the keys
@@ -26,7 +33,7 @@ public class AboutHashMap {
         }
         
     }
-    public static ArrayList<Product> getsample(){
+    public static ArrayList<Product> getSample(){
         ArrayList<Product> sample = new ArrayList<>();
         sample.add(new Product ("p1" , "name 1", "cat 1", 10));
         sample.add(new Product ("p2" , "name 2", "cat 2", 10));
