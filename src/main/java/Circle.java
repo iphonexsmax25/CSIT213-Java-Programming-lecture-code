@@ -19,6 +19,6 @@ public class Circle {
         return Math.PI * radius * radius;
     }
     public String toString(){
-        return String.format("Circle %1.f %1.f", radius, getArea());
+        return String.format("Circle %.1f %.1f", radius, getArea());
     }
 }
