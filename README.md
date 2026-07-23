@@ -7,9 +7,9 @@ Each branch corresponds to a specific lecture, making it easy to access the exam
 1. Navigate to the repository.
 2. Click on the **branch dropdown menu**.
 3. Select the branch for the lecture you want to view:
-   - `lecture-1` → Code examples from Lecture 1
-   - `lecture-2` → Code examples from Lecture 2
-   - `lecture-3` → Code examples from Lecture 3  
+   - `Lecture-1` → Code examples from Lecture 1
+   - `Lecture-2` → Code examples from Lecture 2
+   - `Lecture-3` → Code examples from Lecture 3  
    *(and so on for each lecture)*
 
 ## 🖥️ Opening the Files
